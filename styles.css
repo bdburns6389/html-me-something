@@ -1,3 +1,6 @@
+body {
+  background-color: skyblue;
+}
 p {
   color: blue;
   margin-top: 50px;
@@ -17,4 +20,25 @@ footer p {
 img {
   padding-top: 100px;
   padding-left: 100px;
+}
+
+#snowflakeContainer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.snowflake {
+  padding-left: 15px;
+  font-family: Cambria, Georgia, serif;
+  font-size: 14px;
+  line-height: 24px;
+  position: fixed;
+  color: #FFFFFF;
+  user-select: none;
+  z-index: 1000;
+}
+
+.snowflake:hover {
+  cursor: default;
 }
