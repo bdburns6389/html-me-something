@@ -1,3 +1,20 @@
 p {
   color: blue;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
   }
+
+footer p {
+  color: red;
+  }
+
+#contact_info{
+  color: green;
+}
+
+img {
+  padding-top: 100px;
+  padding-left: 100px;
+}
