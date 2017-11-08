@@ -1,10 +1,9 @@
 body {
-  background-color: skyblue;
+  background: rgb(135, 206, 235,);
+  background: rgba(135, 206, 236, .35);
 }
 p {
   color: blue;
-  margin-top: 50px;
-  margin-bottom: 50px;
   margin-right: 50px;
   margin-left: 50px;
   }
@@ -18,8 +17,9 @@ footer p {
 }
 
 img {
-  padding-top: 100px;
-  padding-left: 100px;
+  padding: auto; 
+  height: 180px;
+  width: 360px;
 }
 
 #snowflakeContainer {
